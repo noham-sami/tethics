@@ -297,17 +297,7 @@
   <!-- mapbox api integration -->
 
   <script>
-      mapboxgl.accessToken = 'pk.eyJ1Ijoic2FoaWwwNiIsImEiOiJja3NlYXAzcGUweXZzMm9vZDF6a213a3YwIn0.2TqRpF9Ot8N3TcY5vKY0ag';
-      const map = new mapboxgl.Map({
-          container: 'map',
-          style: 'mapbox://styles/mapbox/streets-v11', 
-          center: [77.4126, 23.2599], 
-          zoom: 12
-      });
-
-      const marker1 = new mapboxgl.Marker()
-      .setLngLat([77.4126, 23.2599])
-      .addTo(map);
+      mapboxgl.accessToken='pk.eyJ1Ijoic2FoaWwwNiIsImEiOiJja3NlYXAzcGUweXZzMm9vZDF6a213a3YwIn0.2TqRpF9Ot8N3TcY5vKY0ag';const map=new mapboxgl.Map({container:'map',style:'mapbox://styles/mapbox/streets-v11',center:[77.4126,23.2599],zoom:12});const marker1=new mapboxgl.Marker().setLngLat([77.4126,23.2599]).addTo(map)
   </script>
 
 
@@ -315,21 +305,8 @@
   <!-- scroll to top js -->
 
   <script>
-      var mybutton = document.getElementById("myBtn");
-      window.onscroll = function() {scrollFunction()};
-      
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-      
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
+      var mybutton=document.getElementById("myBtn");window.onscroll=function(){scrollFunction()};function scrollFunction(){if(document.body.scrollTop>20||document.documentElement.scrollTop>20){mybutton.style.display="block"}else{mybutton.style.display="none"}}
+      function topFunction(){document.body.scrollTop=0;document.documentElement.scrollTop=0}
   </script>
 
 
