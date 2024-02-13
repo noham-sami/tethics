@@ -6,82 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="af459c10-4920-43ed-af7e-eb962a830b41" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/.idea/tethics.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/arrow-forward-outline.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/arrow-forward-outline.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/arrow-forward-outline.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/awards/1.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/awards/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/awards/2.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/awards/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/awards/3.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/awards/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/awards/4.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/awards/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/bg-pattern.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/bg-pattern.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/bg-pattern.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint-blur-dark.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint-blur-dark.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint-blur-dark.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint1.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint2.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint3.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint4.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint5-blur.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint5-blur.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint5-blur.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint5.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint6-dark.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint6-dark.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint6-dark.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint6.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint7.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint7.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint8.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint8.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint9.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/breakpoint9.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/demo ss/dashboard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/demo ss/facilities.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/demo ss/homepage.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/demo ss/login.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/facilities/sports.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/logo/logo.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/logo/logo.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/logo/logo.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/person-outline.avif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/person-outline.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/assets/person-outline.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/pages/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/pages/css/facilities.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/pages/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/pages/dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/pages/facilities.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/pages/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tethics/pages/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707208092099</updated>
       <workItem from="1707208094416" duration="1771000" />
-      <workItem from="1707808529362" duration="68000" />
+      <workItem from="1707808529362" duration="823000" />
     </task>
     <servers />
   </component>
