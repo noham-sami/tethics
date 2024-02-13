@@ -19,11 +19,6 @@ a {
 	text-decoration: none
 }
 
-img {
-	max-width: 100%;
-	height: auto
-}
-
 .header {
 	position: fixed;
 	top: 0;
@@ -211,12 +206,6 @@ img {
 	margin-left: 70px
 }
 
-@media screen and (max-width:320px) {
-	.header-search {
-		width: 70%
-	}
-}
-
 @media screen and (min-width:768px) {
 	body {
 		padding: 1rem 3rem 0 6rem
@@ -233,14 +222,6 @@ img {
 	}
 	.header-toggle {
 		display: none
-	}
-	.header-logo {
-		display: block
-	}
-	.header-img {
-		width: 40px;
-		height: 40px;
-		order: 1
 	}
 	.nav {
 		left: 0;

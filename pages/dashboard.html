@@ -16,12 +16,12 @@
 
     <!-- mapbox api -->
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css" rel="stylesheet"  media="print" onload="this.media='all'">
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.js" async></script>
-    <script src="https://unpkg.com/@turf/turf@6/turf.min.js" async></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
 
     <!-- graph -->
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js" async></script>
-    <script type="text/javascript" async>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
         google.charts.load('current', {
             packages: ['corechart']
         });
@@ -37,8 +37,6 @@
       Dashboard
     </h1>
   </header>
-
-
 
   <!-- navbar -->
   <div class="nav" id="navbar">
@@ -161,7 +159,7 @@
   <!-- js -->
 
   <!-- mapbox api integration -->
-  <script async>
+  <script>
     mapboxgl.accessToken = 'pk.eyJ1Ijoic2FoaWwwNiIsImEiOiJja3NlYXAzcGUweXZzMm9vZDF6a213a3YwIn0.2TqRpF9Ot8N3TcY5vKY0ag';
     const map = new mapboxgl.Map({
         container: 'map',
@@ -186,7 +184,7 @@
 
 
   <!-- attendance graph -->
-  <script language="JavaScript" async>
+  <script language="JavaScript">
     function drawChart() {
         var data = google.visualization.arrayToDataTable([
             ['Month', 'Days'],
