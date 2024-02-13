@@ -6,18 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- css -->
-
-    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/dashboard.css" media="print" onload="this.media='all'">
 
     <!-- icons -->
-
-    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" media="print" onload="this.media='all'">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" async></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" async></script>
 
     <!-- mapbox api -->
-    <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css" rel="stylesheet"  media="print" onload="this.media='all'">
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.js"></script>
     <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
 
@@ -28,28 +26,19 @@
             packages: ['corechart']
         });
     </script>
-
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     
     <title>Tethics | Dashboard</title>
 </head>
 <body>
 
   <!-- header -->
-
   <header class="header">
     <h1 id="header-head">
       Dashboard
     </h1>
   </header>
 
-
-
   <!-- navbar -->
-
   <div class="nav" id="navbar">
     <nav class="nav-container">
         <div>
@@ -118,13 +107,12 @@
 
 
   <!-- dashboard section -->
-
   <main>
       <section>
         <div class="row">
           <div class="column">
             <div class="card1">
-              <h3>Attendance This Month</h3>
+              <h1>Attendance This Month</h1>
               <p>August</p>
               <p>14/17</p>
             </div>
@@ -132,7 +120,7 @@
         
           <div class="column">
             <div class="card2">
-              <h3>Homeworks Submitted</h3>
+              <h1>Homeworks Submitted</h1>
               <p>August</p>
               <p>5/7</p>
             </div>
@@ -140,7 +128,7 @@
           
           <div class="column">
             <div class="card3">
-              <h3>Fees</h3>
+              <h1>Fees</h1>
               <p>Pending</p>
               <p>₹12,000 due</p>
             </div>
@@ -148,7 +136,7 @@
           
           <div class="column">
             <div class="card4">
-              <h3>Upcoming Class</h3>
+              <h1>Upcoming Class</h1>
               <p>Maths</p>
               <p>9:41 a.m.</p>
             </div>
@@ -168,13 +156,9 @@
       </div>
   </main>
 
-
-
   <!-- js -->
 
-
   <!-- mapbox api integration -->
-
   <script>
     mapboxgl.accessToken = 'pk.eyJ1Ijoic2FoaWwwNiIsImEiOiJja3NlYXAzcGUweXZzMm9vZDF6a213a3YwIn0.2TqRpF9Ot8N3TcY5vKY0ag';
     const map = new mapboxgl.Map({
@@ -200,7 +184,6 @@
 
 
   <!-- attendance graph -->
-
   <script language="JavaScript">
     function drawChart() {
         var data = google.visualization.arrayToDataTable([
@@ -223,8 +206,6 @@
   </script>
   
   <!-- custom js -->
-
-  <script src="js/main.js"></script>
-        
+  <script src="js/main.js" async></script>
 </body>
 </html>

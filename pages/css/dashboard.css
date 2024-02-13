@@ -7,21 +7,16 @@
 body {
 	margin: 3.5rem 0 0 0;
 	padding: 1rem 1rem 0;
-	font-family: Montserrat;
+	font-family: Arial, Helvetica, sans-serif;
 	background-color: white
 }
 
-h3 {
+h1 {
 	margin: 0
 }
 
 a {
 	text-decoration: none
-}
-
-img {
-	max-width: 100%;
-	height: auto
 }
 
 .header {
@@ -130,14 +125,14 @@ img {
 	padding: 0 10px
 }
 
-.column h3 {
+.column h1 {
 	font-size: 1.5rem;
-	font-family: Montserrat
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .column p {
 	font-size: 1.2rem;
-	font-family: Montserrat
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .row {
@@ -195,7 +190,7 @@ img {
 
 .column-two h2 {
 	color: #000;
-	font-family: Montserrat;
+	font-family: Arial, Helvetica, sans-serif;;
 	font-size: 2rem
 }
 
@@ -209,12 +204,6 @@ img {
 	height: 400px;
 	width: 80%;
 	margin-left: 70px
-}
-
-@media screen and (max-width:320px) {
-	.header-search {
-		width: 70%
-	}
 }
 
 @media screen and (min-width:768px) {
@@ -233,14 +222,6 @@ img {
 	}
 	.header-toggle {
 		display: none
-	}
-	.header-logo {
-		display: block
-	}
-	.header-img {
-		width: 40px;
-		height: 40px;
-		order: 1
 	}
 	.nav {
 		left: 0;
