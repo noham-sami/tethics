@@ -47,15 +47,15 @@
           <li><a href="#gallery">Gallery</a></li>
           <li id="login-button"><a href="pages/login.html">
               <picture>
-                  <source srcset="assets/person-outline-large.avif 1024w,
+                  <source srcset="assets/person-outline.avif 1024w,
                   assets/person-outline-medium.avif 640w,
                   assets/person-outline-small.avif 320w"
-                          type="image/avif">
-                  <source srcset="assets/person-outline-large.webp 1024w,
+                          type="image/avif" class="lazyload">
+                  <source srcset="assets/person-outline.webp 1024w,
                   assets/person-outline-medium.webp 640w,
                   assets/person-outline-small.webp 320w"
-                          type="image/webp">
-                  <img src="assets/person-outline.svg" alt="Description de l'image" loading="lazy" decoding="async" width="1024" height="auto">
+                          type="image/webp" class="lazyload">
+                  <img src="assets/person-outline.svg" id="icon" alt="" loading="lazy" decoding="async">
               </picture>
           </a></li>
        </ul>
