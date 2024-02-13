@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a91e8b2-3959-48d7-9440-53fab5dbbf8c" name="Changes" comment="class=&quot;lazyload&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tethics.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/arrow-forward-outline.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/arrow-forward-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/arrow-forward-outline.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/awards/1.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/awards/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/awards/2.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/awards/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/awards/3.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/awards/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/awards/4.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/awards/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bg-pattern.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bg-pattern.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/bg-pattern.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint-blur-dark.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint-blur-dark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint-blur-dark.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint1.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint2.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint3.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint4.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint5-blur.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint5-blur.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint5-blur.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint5.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint6-dark.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint6-dark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint6-dark.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint6.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint7.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint7.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint8.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint9.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/breakpoint9.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/demo ss/dashboard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/demo ss/facilities.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/demo ss/homepage.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/demo ss/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/facilities/sports.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo/logo.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo/logo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logo/logo.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/person-outline.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/person-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/person-outline.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/css/facilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/facilities.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="2bzusatefcMjv5z4fNImta0IZJI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/noham/Downloads/tethics/tethics&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="tethics" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8081">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a91e8b2-3959-48d7-9440-53fab5dbbf8c" name="Changes" comment="" />
+      <created>1707230436320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707230436320</updated>
+      <workItem from="1707230438303" duration="7414000" />
+      <workItem from="1707292024358" duration="3833000" />
+      <workItem from="1707807700794" duration="793000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="class=&quot;lazyload&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="class=&quot;lazyload&quot;" />
+  </component>
+</project>
