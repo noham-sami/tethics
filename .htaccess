@@ -1,0 +1,10 @@
+<IfModule mod_deflate.c>
+    # Active la compression
+    SetOutputFilter DEFLATE
+
+    # Types de fichiers à compresser
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/json
+
+    # Ne pas compresser les ressources déjà compressées
+    SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png|zip|gz|ico|pdf)$ no-gzip dont-vary
+</IfModule>
