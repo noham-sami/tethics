@@ -156,7 +156,7 @@ i {
 	padding-top: 200px;
 	width: 100%;
 	height: 70vh;
-	background-image: url(/assets/breakpoint-blur-dark.jpg);
+	background-image: url(assets/breakpoint-blur-dark.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
@@ -223,7 +223,7 @@ i {
 	height: auto;
 	margin: 0 auto;
 	background-color: #fff;
-	background-image: url(/assets/breakpoint6-dark.jpg);
+	background-image: url(assets/breakpoint6-dark.jpg);
 	background-position: center;
 	background-size: cover;
 	box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px;
@@ -291,7 +291,7 @@ i {
 }
 
 .about-section {
-	background: url(/assets/breakpoint9.jpg) no-repeat right;
+	background: url(assets/breakpoint9.jpg) no-repeat right;
 	background-size: 55%;
 	background-color: #fff;
 	overflow: hidden;
@@ -337,7 +337,7 @@ i {
 
 .vision {
 	background-color: #d2d2d2;
-	background-image: url(/assets/bg-pattern.svg);
+	background-image: url(assets/bg-pattern.svg);
 	background-position: center;
 	background-size: cover;
 	text-align: center;
@@ -399,7 +399,7 @@ i {
 }
 
 .bottom {
-	background-image: url(/assets/bg-pattern.svg);
+	background-image: url(assets/bg-pattern.svg);
 	background-color: #4b4a4a;
 	background-position: center;
 	background-size: cover
