@@ -46,11 +46,11 @@ h1 {
 b {
 	font-weight: 700
 }
-/**
+
 i {
 	font-display: swap
 }
-**/
+
 #navbar {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -104,11 +104,11 @@ i {
 	justify-content: space-around;
 	transition: .2s ease
 }
-/**
+
 .nav-links a:hover {
 	text-decoration: underline
 }
-**/
+
 .nav-links li {
 	list-style: none
 }
@@ -121,11 +121,11 @@ i {
 	transition: .2s ease-in;
 	font-family: Montserrat
 }
-/**
+
 .nav-links a:hover {
 	cursor: pointer
 }
-**/
+
 .hamburger {
 	display: none
 }
@@ -146,12 +146,12 @@ i {
 	width: 1.8rem;
 	height: 1.8rem
 }
-/**
+
 #login-button:hover {
 	-webkit-transform: scale(1.12);
 	transform: scale(1.12)
 }
-**/
+
 .banner {
 	padding-top: 200px;
 	width: 100%;
@@ -206,11 +206,11 @@ i {
 	box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px;
 	cursor: pointer
 }
-/**
+
 .char-btn:hover {
 	text-decoration: underline
 }
-**/
+
 .btn-main {
 	display: flex;
 	justify-content: center;
@@ -281,7 +281,7 @@ i {
 	background-color: #fff;
 	box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0
 }
-/**
+
 .about {
 	min-height: 100vh;
 	display: flex;
@@ -334,7 +334,7 @@ i {
 	font-weight: 700;
 	font-size: 13px
 }
-**/
+
 .vision {
 	background-color: #d2d2d2;
 	background-image: url(/tethics/assets/bg-pattern.svg);
@@ -429,11 +429,11 @@ i {
 	transition: .2s ease;
 	box-shadow: rgba(0, 0, 0, 0.16) 0 10px 36px 0, rgba(0, 0, 0, 0.06) 0 0 0 1px
 }
-/**
+
 #myBtn:hover {
 	background-color: #555
 }
-**/
+
 .container-gal {
 	padding-top: 140px;
 	width: 70%;
@@ -488,11 +488,11 @@ i {
 	transition: .2s ease-out;
 	cursor: pointer
 }
-/**
+
 .icon-gal img:hover {
 	transform: scale(1.2)
 }
-**/
+
 .features {
 	padding: 100px 40px;
 	display: flex;
@@ -529,7 +529,7 @@ i {
 	justify-content: center;
 	align-items: flex-start
 }
-/**
+
 .flex-info h2 {
 	font-size: 2rem;
 	font-weight: 700;
@@ -537,7 +537,7 @@ i {
 	margin-bottom: 1rem;
 	font-family: Poppins
 }
-**/
+
 .flex-info p {
 	margin-bottom: 0;
 	color: #000;
@@ -604,13 +604,13 @@ i {
 		pointer-events: none;
 		padding: 100px 0
 	}
-/**
+
 	.nav-links.open {
 		clip-path: circle(1000px at 90% -10%);
 		-webkit-clip-path: circle(1000px at 90% -10%);
 		pointer-events: all
 	}
-**/
+
 	.nav-links li {
 		font-size: 25px;
 		font-weight: 600;
@@ -646,7 +646,7 @@ i {
 		-webkit-transition: all .5s ease 1s;
 		transition: all .5s ease 1s
 	}
-/**
+
 	.nav-links li:nth-child(6) {
 		-webkit-transition: all .5s ease 1.2s;
 		transition: all .5s ease 1.2s
@@ -669,7 +669,7 @@ i {
 		-webkit-transform: rotate(45deg) translate(-5px, -6px);
 		transform: rotate(45deg) translate(-5px, -6px)
 	}
-**/
+
 	.box {
 		display: flex;
 		flex-direction: column
@@ -687,7 +687,7 @@ i {
 		text-align: center
 	}
 }
-/**
+
 @media screen and (max-width:568px) {
 	.banner h2 {
 		font-size: 1.5rem
@@ -729,7 +729,7 @@ i {
 		font-size: 1.1rem
 	}
 }
-**/
+
 @media screen and (max-width:1205px) {
 	.vision-column p {
 		font-size: 1.1rem;
@@ -740,7 +740,7 @@ i {
 		width: 500px
 	}
 }
-/**
+
 @media screen and (max-width:613px) {
 	.vision-column {
 		width: 400px
@@ -752,7 +752,7 @@ i {
 		width: 300px
 	}
 }
-**/
+
 @media(max-width:1000px) {
 	.flex-image {
 		width: 100%
@@ -762,7 +762,7 @@ i {
 		width: 100%
 	}
 }
-/**
+
 @media screen and (max-width:1200px) {
 	.inner-container {
 		padding: 80px
@@ -790,4 +790,3 @@ i {
 		z-index: 9999
 	}
 }
- **/
