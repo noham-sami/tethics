@@ -11,6 +11,9 @@ img{
 	height: auto;
 	width: auto;
 }
+.vision {
+	height: 400px;
+}
 #map {
 	width: 50%;
 	margin-left: 25%;
