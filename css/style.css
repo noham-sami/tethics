@@ -7,7 +7,10 @@ picture{
 	height: auto;
 	width: auto;
 }
-
+img{
+	height: auto;
+	width: auto;
+}
 #map {
 	width: 50%;
 	margin-left: 25%;
