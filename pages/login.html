@@ -6,7 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Critical CSS -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/login.css" media="print" onload="this.media='all'">
+
+    <!-- Icons -->
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' async>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
+
+    <!-- Mapbox API -->
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" async>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js" defer></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" media="print" onload="this.media='all'">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+    <!-- Title and Favicon -->
+    <title>Tethics | Login</title>
+
+    <!-- Minify JavaScript -->
+    <script src="/path/to/minified/script.js" defer async></script>
+
+    <!-- Inline Styles to Avoid Layout Shifts -->
     <style>
         body {
             margin: 0;
@@ -34,25 +57,6 @@
         }
     </style>
 
-    <!-- Icons -->
-    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' async>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
-
-    <!-- Mapbox API -->
-    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" async>
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js" defer></script>
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" media="print" onload="this.media='all'">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin media="print" onload="this.media='all'">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-
-    <!-- Title and Favicon -->
-    <title>Tethics | Login</title>
-
-    <!-- Minify JavaScript -->
-    <script src="/path/to/minified/script.js" defer async></script>
 </head>
 
 <body>
@@ -77,26 +81,28 @@
         </div>
     </header>
 
-    <!-- Login Section -->
-    <div class="center">
-        <h1 id="main-heading">Login</h1>
-        <form id="loginForm" action="dashboard.html">
-            <div class="txt-field">
-                <input id="usernameInput" type="text" required>
-                <span></span>
-                <label>Username</label>
-            </div>
-            <div class="txt-field">
-                <input id="passwordInput" type="password" required>
-                <span></span>
-                <label>Password</label>
-            </div>
-            <input type="submit" value="Login">
-        </form>
-    </div>
 
+          <!-- login section -->
+
+  <div class="center">
+    <h1>Login</h1>
+    <form action="dashboard.html">
+       <div class="txt-field">
+          <input type="text" required>
+          <span></span>
+          <label>Username</label>
+       </div>
+       <div class="txt-field">
+          <input type="password" required>
+          <span></span>
+          <label>Password</label>
+       </div>
+       <input type="submit" value="Login">
+    </form>
+ </div>
     <!-- Minify and Defer Other JavaScript -->
     <script src="/path/to/minified/other-script.js" defer async></script>
+
 </body>
 
 </html>
