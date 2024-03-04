@@ -6,8 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/login.css" media="print" onload="this.media='all'">
+    <!-- Critical CSS -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-right: 15px;
+        }
+
+        .center {
+            padding-top: 60px;
+        }
+
+        #main-heading {
+            margin-bottom: 20px;
+        }
+
+        .txt-field {
+            margin-bottom: 20px;
+        }
+    </style>
 
     <!-- Icons -->
     <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' async>
@@ -28,14 +53,13 @@
 
     <!-- Minify JavaScript -->
     <script src="/path/to/minified/script.js" defer async></script>
-
 </head>
 
 <body>
 
     <!-- Header Section -->
     <header id="header">
-        <div id="navbar" style="display: flex; align-items: center; justify-content: space-between;">
+        <div id="navbar">
             <div class="logo">
                 <a href="/index.html" class="tethics-logo">Tethics</a>
             </div>
@@ -44,7 +68,7 @@
                 <div class="line-2"></div>
                 <div class="line-3"></div>
             </div>
-            <ul class="nav-links" style="margin-right: 15px;">
+            <ul class="nav-links">
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/index.html#about">About</a></li>
                 <li><a href="facilities.html">Facilities</a></li>
@@ -54,15 +78,15 @@
     </header>
 
     <!-- Login Section -->
-    <div class="center" style="padding-top: 60px;">
-        <h1 id="main-heading" style="margin-bottom: 20px;">Login</h1>
+    <div class="center">
+        <h1 id="main-heading">Login</h1>
         <form id="loginForm" action="dashboard.html">
-            <div class="txt-field" style="margin-bottom: 20px;">
+            <div class="txt-field">
                 <input id="usernameInput" type="text" required>
                 <span></span>
                 <label>Username</label>
             </div>
-            <div class="txt-field" style="margin-bottom: 20px;">
+            <div class="txt-field">
                 <input id="passwordInput" type="password" required>
                 <span></span>
                 <label>Password</label>
@@ -71,9 +95,8 @@
         </form>
     </div>
 
-    <!-- JS -->
+    <!-- Minify and Defer Other JavaScript -->
     <script src="/path/to/minified/other-script.js" defer async></script>
-
 </body>
 
 </html>
