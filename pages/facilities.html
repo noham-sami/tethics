@@ -11,11 +11,11 @@
     <!-- icons -->
     <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" async ></script>
 
     <!-- mapbox api -->
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" rel="stylesheet">
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js" async ></script>
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +43,19 @@
             <li><a href="/index.html#about">About</a></li>
             <li><a href="facilities.html">Facilities</a></li>
             <li><a href="/index.html#gallery">Gallery</a></li>
-            <li id="login-button"><a href="login.html"><img src="/assets/person-outline.svg" id="icon" alt=""></a></li>
+            <li id="login-button">
+                <a href="login.html">
+                    <picture>
+                        <source srcset="/assets/person-outline-medium.webp" type="image/webp" media="(min-width: 600px)">
+                        <source srcset="/assets/person-outline-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                        <source srcset="/assets/person-outline-small.webp" type="image/webp" media="(max-width: 599px)">
+                        <source srcset="/assets/person-outline-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                        <img src="/assets/person-outline.svg" width="350px" height="236px" loading="lazy" alt="">
+                    </picture>
+                </a>
+            </li>
         </ul>
         </div>
     </header>
@@ -67,10 +79,18 @@
         <p id="fac-p">Everything Your Children Needs</p>
         <div class="features">
         <div class="flex">
-           <div class="flex-image">
-              <img src="/assets/breakpoint7.jpg" alt="">
-           </div>
-           <div class="flex-info">
+            <div class="flex-image">
+                <picture>
+                    <source srcset="/assets/breakpoint7-medium.webp" type="image/webp" media="(min-width: 600px)">
+                    <source srcset="/assets/breakpoint7-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                    <source srcset="/assets/breakpoint7-small.webp" type="image/webp" media="(max-width: 599px)">
+                    <source srcset="/assets/breakpoint7-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                    <img src="/assets/breakpoint7-small.jpg" width="350px" height="236px" loading="lazy" alt="">
+                </picture>
+            </div>
+            <div class="flex-info">
               <h2>Sports</h2>
               <p>The opportunity to play and play well is what we provide for at Tethics Academy. Sports are as important for the all-round development of a child as are academics. Sports inculcate a sense of responsibility, encourage team spirit, develop discipline and help the child learn to deal with success and failure equally.
                  <br>
@@ -88,15 +108,31 @@
                  Tethics Academy has fully equipped labs for Physics, Chemistry, Biology and Computer where the Faculty is ably assisted by our well-qualified Lab assistants.
               </p>
            </div>
-           <div class="flex-image">
-              <img src="/assets/breakpoint2.jpg" alt="">
-           </div>
+            <div class="flex-image">
+                <picture>
+                    <source srcset="/assets/breakpoint2-medium.webp" type="image/webp" media="(min-width: 600px)">
+                    <source srcset="/assets/breakpoint2-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                    <source srcset="/assets/breakpoint2-small.webp" type="image/webp" media="(max-width: 599px)">
+                    <source srcset="/assets/breakpoint2-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                    <img src="/assets/breakpoint2-small.jpg" width="350px" height="auto" loading="lazy" alt="">
+                </picture>
+            </div>
         </div>
         <div class="flex">
-           <div class="flex-image">
-              <img src="/assets/breakpoint8.jpg" alt="">
-           </div>
-           <div class="flex-info">
+            <div class="flex-image">
+                <picture>
+                    <source srcset="/assets/breakpoint8-medium.webp" type="image/webp" media="(min-width: 600px)">
+                    <source srcset="/assets/breakpoint8-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                    <source srcset="/assets/breakpoint8-small.webp" type="image/webp" media="(max-width: 599px)">
+                    <source srcset="/assets/breakpoint8-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                    <img src="/assets/breakpoint8-small.jpg" width="350px" height="auto" loading="lazy" alt="">
+                </picture>
+            </div>
+            <div class="flex-info">
               <h2>24x7 Library</h2>
               <p>The school library is a place where knowledge, inspiration, imagination and creativity are nurtured.
                  Academic support books, Non-Fiction and Fiction books are the hallmark of our library. Books by Ruskin Bond, Agatha Christie, Paolo Coelho, and many more authors as well as poets are all available for the reading pleasure of the students. A full time librarian helps the students choose age-appropriate literature and the comfortable chairs, cushions and sofas create an inviting ambience.
@@ -108,19 +144,37 @@
               <h2>Hostel Facilities</h2>
               <p>Tethics Academy also has a hostel in its premisis. The hostels have state-of-the-art washrooms (toilet and bathing cells). Cleanliness is maintained by the staff on duty. Each hostel room provides an amiable atmosphere and pollution-free environment, conducive to the mental, physical and spiritual development of the students and helps them become self-reliant.</p>
            </div>
-           <div class="flex-image">
-              <img src="/assets/breakpoint9.jpg" alt="">
-           </div>
+            <div class="flex-image">
+                <picture>
+                    <source srcset="/assets/breakpoint9-medium.webp" type="image/webp" media="(min-width: 600px)">
+                    <source srcset="/assets/breakpoint9-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                    <source srcset="/assets/breakpoint9-small.webp" type="image/webp" media="(max-width: 599px)">
+                    <source srcset="/assets/breakpoint9-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                    <img src="/assets/breakpoint9-small.jpg" width="350px" height="auto" loading="lazy" alt="">
+                </picture>
+            </div>
         </div>
         <div class="flex">
-           <div class="flex-image">
-              <img src="/assets/breakpoint1.jpg" alt="">
-           </div>
-           <div class="flex-info">
+            <div class="flex-image">
+                <picture>
+                    <source srcset="/assets/breakpoint1-medium.webp" type="image/webp" media="(min-width: 600px)">
+                    <source srcset="/assets/breakpoint1-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                    <source srcset="/assets/breakpoint1-small.webp" type="image/webp" media="(max-width: 599px)">
+                    <source srcset="/assets/breakpoint1-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                    <img src="/assets/breakpoint1-small.jpg" width="350px" height="auto" loading="lazy" alt="">
+                </picture>
+
+            </div>
+            <div class="flex-info">
               <h2>Curriculum</h2>
               <p>Tethics Academy prepares its students for the CBSE curriculum (Central Board of Secondary Education) right from Grade I till Grade XII. Lessons are taught and concepts are imparted to the students with the aid of smart classes, role plays, experiments, and demonstrations. Students are encouraged to question and express themselves creatively.
               </p>
            </div>
+        </div>
         </div>
     </section>
 
@@ -130,9 +184,9 @@
 
     <div class="bottom">
         <span id="bottom-p">
-            <center>
+            <div style="text-align: center;">
                 Tethics Excellence Academy | Made with &hearts; by Sahil Jain
-            </center>
+            </div>
         </span>
     </div>
 
@@ -150,7 +204,7 @@
     <!-- scroll to top js -->
 
     <script>
-        var mybutton = document.getElementById("myBtn");
+        const mybutton = document.getElementById("myBtn");
         window.onscroll = function() {scrollFunction()};
         
         function scrollFunction() {
@@ -170,7 +224,7 @@
 
     <!-- custom js -->
     
-    <script src="/js/main.js"></script>
+    <script src="/js/main.js" async ></script>
         
 </body>
 </html>

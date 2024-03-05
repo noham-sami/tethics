@@ -6,28 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- css -->
-    <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- icons -->
-    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' media="print" onload="this.media='all'">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" async></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" async></script>
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" async ></script>
 
     <!-- mapbox api -->
-    <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" rel="stylesheet" media="print" onload="this.media='all'">
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js" async></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js" async ></script>
 
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" media="print" onload="this.media='all'">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin media="print" onload="this.media='all'">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-
-    <!-- lazysize -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
     <title>Tethics Excellence Academy</title>
-
-    <!-- Précharger woff2 -->
-    <link rel="preload" as="font" href="/fonts/ma-police.woff2" type="font/woff2" crossorigin="anonymous">
 </head>
 <body>
 
@@ -48,22 +43,22 @@
           <li><a href="#about">About</a></li>
           <li><a href="/pages/facilities.html">Facilities</a></li>
           <li><a href="#gallery">Gallery</a></li>
-          <li id="login-button"><a href="pages/login.html">
-              <picture>
-                  <source srcset="assets/person-outline-medium.avif 640w,
-                  assets/person-outline-small.avif 320w"
-                          type="image/avif" class="lazyload">
-                  <source srcset="assets/person-outline-medium.webp 640w,
-                  assets/person-outline-small.webp 320w"
-                          type="image/webp" class="lazyload">
-                  <img src="assets/person-outline.svg" id="icon" alt="" loading="lazy" decoding="async">
-              </picture>
-          </a></li>
+           <li id="login-button">
+               <a href="pages/login.html">
+                   <picture>
+                       <source srcset="assets/person-outline-medium.webp" type="image/webp" media="(min-width: 600px)">
+                       <source srcset="assets/person-outline-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                       <source srcset="assets/person-outline-small.webp" type="image/webp" media="(max-width: 599px)">
+                       <source srcset="assets/person-outline-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                       <img src="assets/person-outline-small.svg" id="icon" loading="lazy" alt="">
+                   </picture>
+               </a>
+           </li>
        </ul>
     </div>
  </header>
-
-
 
   <!-- banner section -->
 
@@ -73,19 +68,19 @@
     <p>Our mission is to work together to build a safe, respectful and nurturing environment focused on maximizing each child’s sense of wellbeing and acquisition of skills for life and learning.
       We foster an enthusiastic, creative community of learners prepared to continue their intellectual, emotional, and physical development.
     </p>
-    <div class="btn-main">
-        <button onClick="location.href='pages/login.html'" class="char-btn">Dashboard
-            <picture>
-                <source srcset="assets/arrow-forward-outline-medium.avif 640w,
-                  assets/arrow-forward-outline-small.avif 320w"
-                        type="image/avif" class="lazyload">
-                <source srcset="assets/arrow-forward-outline-medium.webp 640w,
-                  assets/arrow-forward-outline-small.webp 320w"
-                        type="image/webp" class="lazyload">
-                <img src="assets/arrow-forward-outline.svg" width="27px" height="20px" alt="" loading="lazy" decoding="async">
-            </picture>
-        </button>
-    </div>
+      <div class="btn-main">
+          <button onClick="location.href='pages/login.html'" class="char-btn">Dashboard
+              <picture>
+                  <source srcset="/assets/arrow-forward-outline-medium.webp" type="image/webp" media="(min-width: 600px)">
+                  <source srcset="/assets/arrow-forward-outline-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                  <source srcset="/assets/arrow-forward-outline-small.webp" type="image/webp" media="(max-width: 599px)">
+                  <source srcset="/assets/arrow-forward-outline-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                  <img src="/assets/arrow-forward-outline-small.svg" width="27px" height="20px" loading="lazy" alt="">
+              </picture>
+          </button>
+      </div>
   </section>
 
 
@@ -98,46 +93,48 @@
     </div>
     <div class="main-box">
        <div class="box box-main">
-          <div class="icon">
-              <picture>
-                  <source srcset="assets/awards/1-medium.avif 640w,
-                  assets/awards/1-small.avif 320w"
-                          type="image/avif" class="lazyload">
-                  <source srcset="assets/awards/1-medium.webp 640w,
-                  assets/awards/1-small.webp 320w"
-                          type="image/webp" class="lazyload">
-                  <img src="assets/awards/1.jpg" width="150px" height="auto" alt="" loading="lazy" decoding="async">
-              </picture>
-          </div>
-          <p>Outstanding CBSE School Award</p>
+           <div class="icon">
+               <picture>
+                   <source srcset="assets/awards/1-medium.webp" type="image/webp" media="(min-width: 600px)">
+                   <source srcset="assets/awards/1-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                   <source srcset="assets/awards/1-small.webp" type="image/webp" media="(max-width: 599px)">
+                   <source srcset="assets/awards/1-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                   <img src="assets/awards/1-small.jpg" width="150px" height="auto" loading="lazy" alt="">
+               </picture>
+           </div>
+           <p>Outstanding CBSE School Award</p>
        </div>
        <div class="box box-main">
-          <div class="icon">
-              <picture>
-                  <source srcset="assets/awards/4-medium.avif 640w,
-                  assets/awards/4-small.avif 320w"
-                          type="image/avif" class="lazyload">
-                  <source srcset="assets/awards/4-medium.webp 640w,
-                  assets/awards/4-small.webp 320w"
-                          type="image/webp" class="lazyload">
-                  <img src="assets/awards/4.jpg" width="150px" height="150px" alt="" loading="lazy" decoding="async">
-              </picture>
-          </div>
-          <p>British Council Certified</p>
+           <div class="icon">
+               <picture>
+                   <source srcset="assets/awards/4-medium.webp" type="image/webp" media="(min-width: 600px)">
+                   <source srcset="assets/awards/4-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                   <source srcset="assets/awards/4-small.webp" type="image/webp" media="(max-width: 599px)">
+                   <source srcset="assets/awards/4-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                   <img src="assets/awards/4-small.jpg" width="150px" height="150px" loading="lazy" alt="">
+               </picture>
+           </div>
+           <p>British Council Certified</p>
        </div>
        <div class="box box-main">
-          <div class="icon">
-              <picture>
-                  <source srcset="assets/awards/3-medium.avif 640w,
-                  assets/awards/3-small.avif 320w"
-                          type="image/avif" class="lazyload">
-                  <source srcset="assets/awards/3-medium.webp 640w,
-                  assets/awards/3-small.webp 320w"
-                          type="image/webp" class="lazyload">
-                  <img src="assets/awards/3.jpg" width="150px" height="150px" alt="" loading="lazy" decoding="async">
-              </picture>
-          </div>
-          <p>1st in India School Rankings</p>
+           <div class="icon">
+               <picture>
+               <source srcset="assets/awards/3-medium.webp" type="image/webp" media="(min-width: 600px)">
+               <source srcset="assets/awards/3-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+               <source srcset="assets/awards/3-small.webp" type="image/webp" media="(max-width: 599px)">
+               <source srcset="assets/awards/3-small.avif" type="image/avif" media="(max-width: 599px)">
+
+               <img src="assets/awards/3-small.jpg" width="150px" height="150px" loading="lazy" alt="">
+           </picture>
+
+           </div>
+
+           <p>1st in India School Rankings</p>
        </div>
     </div>
   </div>
@@ -153,17 +150,18 @@
           <br>
           <p>Tethics Excellence Academy was founded in 2020, with the mission of delivering excellence in education and at the same time equipping the young learners with the most modern technologies to become a future leader.           </p>
        </div>
-       <div class="flex-image">
-           <picture>
-               <source srcset="assets/logo/logo-medium.avif 640w,
-                  assets/logo/logo-small.avif 320w"
-                       type="image/avif" class="lazyload">
-               <source srcset="assets/logo/logo-medium.webp 640w,
-                  assets/logo/logo-small.webp 320w"
-                       type="image/webp" class="lazyload">
-               <img src="assets/logo/logo.jpeg" alt="" loading="lazy" decoding="async">
-           </picture>
-       </div>
+        <div class="flex-image">
+            <picture>
+                <source srcset="/assets/logo/logo-medium.webp" type="image/webp" media="(min-width: 600px)">
+                <source srcset="/assets/logo/logo-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                <source srcset="/assets/logo/logo-small.webp" type="image/webp" media="(max-width: 599px)">
+                <source srcset="/assets/logo/logo-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                <img src="/assets/logo/logo-small.jpeg" loading="lazy" alt="">
+            </picture>
+        </div>
+
     </div>
   </div>
 
@@ -190,9 +188,20 @@
   <section class="facilities" id="facilities">
     <h1>Facilities</h1>
     <p>Our commitment to excellence extends to the facilities we provide on campus. The infrastructure, sports arenas, music room, transport arrangements, library, laboratories, medical facilities are all designed to be a part of the green surroundings. TAS is a well-designed campus which offers all the modern facilities that are needed to provide the students a safe, secure and happy learning environment.            </p>
-    <div class="btn-main">
-       <button onClick="location.href='/pages/facilities.html'" class="char-btn">See Facilities <img src="/assets/arrow-forward-outline.svg" width="27px" height="20px" alt=""></button>
-    </div>
+      <div class="btn-main">
+          <button onClick="location.href='/pages/facilities.html'" class="char-btn">See Facilities
+              <picture>
+                  <source srcset="/assets/arrow-forward-outline-medium.webp" type="image/webp" media="(min-width: 600px)">
+                  <source srcset="/assets/arrow-forward-outline-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                  <source srcset="/assets/arrow-forward-outline-small.webp" type="image/webp" media="(max-width: 599px)">
+                  <source srcset="/assets/arrow-forward-outline-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                  <img src="/assets/arrow-forward-outline-small.svg" width="27px" height="20px" loading="lazy" alt="">
+              </picture>
+
+          </button>
+      </div>
   </section>
 
 
@@ -203,125 +212,125 @@
     <div class="details-gal">
        <h1>Image Gallery</h1>
     </div>
-      <div class="main-box-gal">
-          <div class="box-gal box-main-gal">
-              <div class="icon-gal">
-                  <picture>
-                      <source srcset="assets/breakpoint1-medium.avif 640w,
-                  assets/breakpoint1-small.avif 320w"
-                              type="image/avif" class="lazyload">
-                      <source srcset="assets/breakpoint1-medium.webp 640w,
-                  assets/breakpoint1-small.webp 320w"
-                              type="image/webp" class="lazyload">
-                      <img src="assets/breakpoint1.jpg" width="350px" height="auto" alt="" loading="lazy" decoding="async">
-                  </picture>
-              </div>
-          </div>
-          <div class="box-gal box-main-gal">
-              <div class="icon-gal">
-                  <picture>
-                      <source srcset="assets/breakpoint2-medium.avif 640w,
-                  assets/breakpoint2-small.avif 320w"
-                              type="image/avif" class="lazyload">
-                      <source srcset="assets/breakpoint2-medium.webp 640w,
-                  assets/breakpoint2-small.webp 320w"
-                              type="image/webp" class="lazyload">
-                      <img src="assets/breakpoint2.jpg" width="350px" height="auto" alt="" loading="lazy" decoding="async">
-                  </picture>
-              </div>
-          </div>
-          <div class="box-gal box-main-gal">
-              <div class="icon-gal">
-                  <picture>
-                      <source srcset="assets/breakpoint3-medium.avif 640w,
-                  assets/breakpoint3-small.avif 320w"
-                              type="image/avif" class="lazyload">
-                      <source srcset="assets/breakpoint3-medium.webp 640w,
-                  assets/breakpoint3-small.webp 320w"
-                              type="image/webp" class="lazyload">
-                      <img src="assets/breakpoint3.jpg" width="350px" height="auto" alt="" loading="lazy" decoding="async">
-                  </picture>
-              </div>
-          </div>
-          <div class="box-gal box-main-gal">
-              <div class="icon-gal">
-                  <picture>
-                      <source srcset="assets/breakpoint4-medium.avif 640w,
-                  assets/breakpoint4-small.avif 320w"
-                              type="image/avif" class="lazyload">
-                      <source srcset="assets/breakpoint4-medium.webp 640w,
-                  assets/breakpoint4-small.webp 320w"
-                              type="image/webp" class="lazyload">
-                      <img src="assets/breakpoint4.jpg" width="350px" height="auto" alt="" loading="lazy" decoding="async">
-                  </picture>
-              </div>
-          </div>
-          <div class="box-gal box-main-gal">
-              <div class="icon-gal">
-                  <picture>
-                      <source srcset="assets/breakpoint5-medium.avif 640w,
-                  assets/breakpoint5-small.avif 320w"
-                              type="image/avif" class="lazyload">
-                      <source srcset="assets/breakpoint5-medium.webp 640w,
-                  assets/breakpoint5-small.webp 320w"
-                              type="image/webp" class="lazyload">
-                      <img src="assets/breakpoint5.jpg" width="350px" height="auto" alt="" loading="lazy" decoding="async">
-                  </picture>
-              </div>
-          </div>
-          <div class="box-gal box-main-gal">
-              <div class="icon-gal">
-                  <picture>
-                      <source srcset="assets/breakpoint6-medium.avif 640w,
-                  assets/breakpoint6-small.avif 320w"
-                              type="image/avif" class="lazyload">
-                      <source srcset="assets/breakpoint6-medium.webp 640w,
-                  assets/breakpoint6-small.webp 320w"
-                              type="image/webp" class="lazyload">
-                      <img src="assets/breakpoint6.jpg" width="350px" height="auto" alt="" loading="lazy" decoding="async">
-                  </picture>
-              </div>
-          </div>
-          <div class="box-gal box-main-gal">
-              <div class="icon-gal">
-                  <picture>
-                      <source srcset="assets/breakpoint7-medium.avif 640w,
-                  assets/breakpoint7-small.avif 320w"
-                              type="image/avif" class="lazyload">
-                      <source srcset="assets/breakpoint7-medium.webp 640w,
-                  assets/breakpoint7-small.webp 320w"
-                              type="image/webp" class="lazyload">
-                      <img src="assets/breakpoint7.jpg" width="350px" height="236px" alt="" loading="lazy" decoding="async">
-                  </picture>
-              </div>
-          </div>
-          <div class="box-gal box-main-gal">
-              <div class="icon-gal">
-                  <picture>
-                      <source srcset="assets/breakpoint8-medium.avif 640w,
-                  assets/breakpoint8-small.avif 320w"
-                              type="image/avif" class="lazyload">
-                      <source srcset="assets/breakpoint8-medium.webp 640w,
-                  assets/breakpoint8-small.webp 320w"
-                              type="image/webp" class="lazyload">
-                      <img src="assets/breakpoint8.jpg" width="350px" height="auto" alt="" loading="lazy" decoding="async">
-                  </picture>
-              </div>
-          </div>
-          <div class="box-gal box-main-gal">
-              <div class="icon-gal">
-                  <picture>
-                      <source srcset="assets/breakpoint9-medium.avif 640w,
-                  assets/breakpoint9-small.avif 320w"
-                              type="image/avif" class="lazyload">
-                      <source srcset="assets/breakpoint9-medium.webp 640w,
-                  assets/breakpoint9-small.webp 320w"
-                              type="image/webp" class="lazyload">
-                      <img src="assets/breakpoint9.jpg" width="350px" height="auto" alt="" loading="lazy" decoding="async">
-                  </picture>
-              </div>
-          </div>
-      </div>
+    <div class="main-box-gal">
+       <div class="box-gal box-main-gal">
+           <div class="icon-gal">
+               <picture>
+                   <source srcset="assets/breakpoint1-medium.webp" type="image/webp" media="(min-width: 600px)">
+                   <source srcset="assets/breakpoint1-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                   <source srcset="assets/breakpoint1-small.webp" type="image/webp" media="(max-width: 599px)">
+                   <source srcset="assets/breakpoint1-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                   <img src="assets/breakpoint1-small.jpg" width="350px" height="auto" loading="lazy" alt="">
+               </picture>
+           </div>
+       </div>
+       <div class="box-gal box-main-gal">
+           <div class="icon-gal">
+               <picture>
+                   <source srcset="assets/breakpoint2-medium.webp" type="image/webp" media="(min-width: 600px)">
+                   <source srcset="assets/breakpoint2-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                   <source srcset="assets/breakpoint2-small.webp" type="image/webp" media="(max-width: 599px)">
+                   <source srcset="assets/breakpoint2-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                   <img src="assets/breakpoint2-small.jpg" width="350px" height="auto" loading="lazy" alt="">
+               </picture>
+           </div>
+       </div>
+       <div class="box-gal box-main-gal">
+           <div class="icon-gal">
+               <picture>
+                   <source srcset="assets/breakpoint3-medium.webp" type="image/webp" media="(min-width: 600px)">
+                   <source srcset="assets/breakpoint3-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                   <source srcset="assets/breakpoint3-small.webp" type="image/webp" media="(max-width: 599px)">
+                   <source srcset="assets/breakpoint3-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                   <img src="assets/breakpoint3-small.jpg" width="350px" height="auto" loading="lazy" alt="">
+               </picture>
+           </div>
+       </div>
+       <div class="box-gal box-main-gal">
+           <div class="icon-gal">
+               <picture>
+                   <source srcset="assets/breakpoint4-medium.webp" type="image/webp" media="(min-width: 600px)">
+                   <source srcset="assets/breakpoint4-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                   <source srcset="assets/breakpoint4-small.webp" type="image/webp" media="(max-width: 599px)">
+                   <source srcset="assets/breakpoint4-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                   <img src="assets/breakpoint4-small.jpg" width="350px" height="auto" loading="lazy" alt="">
+               </picture>
+           </div>
+       </div>
+       <div class="box-gal box-main-gal">
+           <div class="icon-gal">
+               <picture>
+                   <source srcset="assets/breakpoint5-medium.webp" type="image/webp" media="(min-width: 600px)">
+                   <source srcset="assets/breakpoint5-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                   <source srcset="assets/breakpoint5-small.webp" type="image/webp" media="(max-width: 599px)">
+                   <source srcset="assets/breakpoint5-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                   <img src="assets/breakpoint5-small.jpg" width="350px" height="auto" loading="lazy" alt="">
+               </picture>
+           </div>
+       </div>
+       <div class="box-gal box-main-gal">
+           <div class="icon-gal">
+               <picture>
+                   <source srcset="assets/breakpoint6-medium.webp" type="image/webp" media="(min-width: 600px)">
+                   <source srcset="assets/breakpoint6-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                   <source srcset="assets/breakpoint6-small.webp" type="image/webp" media="(max-width: 599px)">
+                   <source srcset="assets/breakpoint6-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                   <img src="assets/breakpoint6-small.jpg" width="350px" height="auto" loading="lazy" alt="">
+               </picture>
+           </div>
+       </div>
+       <div class="box-gal box-main-gal">
+           <div class="icon-gal">
+               <picture>
+                   <source srcset="assets/breakpoint7-medium.webp" type="image/webp" media="(min-width: 600px)">
+                   <source srcset="assets/breakpoint7-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                   <source srcset="assets/breakpoint7-small.webp" type="image/webp" media="(max-width: 599px)">
+                   <source srcset="assets/breakpoint7-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                   <img src="assets/breakpoint7-small.jpg" width="350px" height="236px" loading="lazy" alt="">
+               </picture>
+           </div>
+       </div>
+       <div class="box-gal box-main-gal">
+           <div class="icon-gal">
+               <picture>
+                   <source srcset="assets/breakpoint8-medium.webp" type="image/webp" media="(min-width: 600px)">
+                   <source srcset="assets/breakpoint8-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                   <source srcset="assets/breakpoint8-small.webp" type="image/webp" media="(max-width: 599px)">
+                   <source srcset="assets/breakpoint8-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                   <img src="assets/breakpoint8-small.jpg" width="350px" height="auto" loading="lazy" alt="">
+               </picture>
+           </div>
+       </div>
+       <div class="box-gal box-main-gal">
+           <div class="icon-gal">
+               <picture>
+                   <source srcset="assets/breakpoint9-medium.webp" type="image/webp" media="(min-width: 600px)">
+                   <source srcset="assets/breakpoint9-medium.avif" type="image/avif" media="(min-width: 600px)">
+
+                   <source srcset="assets/breakpoint9-small.webp" type="image/webp" media="(max-width: 599px)">
+                   <source srcset="assets/breakpoint9-small.avif" type="image/avif" media="(max-width: 599px)">
+
+                   <img src="assets/breakpoint9-small.jpg" width="350px" height="auto" loading="lazy" alt="">
+               </picture>
+           </div>
+       </div>
+    </div>
   </div>
 
 
@@ -340,9 +349,7 @@
 
   <div class="bottom">
     <span id="bottom-p">
-       <center>
           Tethics Excellence Academy | Made with &hearts; by Sahil Jain
-       </center>
     </span>
   </div>
 
@@ -360,7 +367,17 @@
   <!-- mapbox api integration -->
 
   <script>
-      mapboxgl.accessToken='pk.eyJ1Ijoic2FoaWwwNiIsImEiOiJja3NlYXAzcGUweXZzMm9vZDF6a213a3YwIn0.2TqRpF9Ot8N3TcY5vKY0ag';const map=new mapboxgl.Map({container:'map',style:'mapbox://styles/mapbox/streets-v11',center:[77.4126,23.2599],zoom:12});const marker1=new mapboxgl.Marker().setLngLat([77.4126,23.2599]).addTo(map)
+      mapboxgl.accessToken = 'pk.eyJ1Ijoic2FoaWwwNiIsImEiOiJja3NlYXAzcGUweXZzMm9vZDF6a213a3YwIn0.2TqRpF9Ot8N3TcY5vKY0ag';
+      const map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/mapbox/streets-v11', 
+          center: [77.4126, 23.2599], 
+          zoom: 12
+      });
+
+      const marker1 = new mapboxgl.Marker()
+      .setLngLat([77.4126, 23.2599])
+      .addTo(map);
   </script>
 
 
@@ -368,14 +385,27 @@
   <!-- scroll to top js -->
 
   <script>
-      var mybutton=document.getElementById("myBtn");window.onscroll=function(){scrollFunction()};function scrollFunction(){if(document.body.scrollTop>20||document.documentElement.scrollTop>20){mybutton.style.display="block"}else{mybutton.style.display="none"}}
-      //function topFunction(){document.body.scrollTop=0;document.documentElement.scrollTop=0}
+      var mybutton = document.getElementById("myBtn");
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
   </script>
 
 
   <!-- custom js -->
-
-  <script src="js/main.js" async></script>
+  
+  <script src="js/main.js" async ></script>
 
 </body>
 </html>
